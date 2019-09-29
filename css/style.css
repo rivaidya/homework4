@@ -84,11 +84,9 @@ text-align: center;
 
 .nav{
    /*Your code here */
-  vertical-align: center;
+  align-self: center;
   grid-column: 1/-1;
   grid-row: 1/2;
-
-  /*Provided*/
   background-color: #ddd;
   padding-top: 20px; 
   padding-bottom: 20px;
@@ -193,7 +191,7 @@ justify-self:center;
   .nav{
     background-color: #ddd;
     text-align: right;
-    vertical-align: center;
+    align-self: center;
     grid-column:1/-1;
     grid-row:1/2;
     
